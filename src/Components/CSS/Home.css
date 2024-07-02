@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+.home{
+    background-color: aliceblue;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.homehead{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.headIntro{
+    max-width: 720px;
+    font-size: 22px;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.container{
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+.container ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.list:hover{
+    border-radius: 5x solid black;
+}
+
+.list a{
+    color: black;
+}
+
+.list a:hover{
+    color: black;
+}
+
+.card{
+    display: flex;
+    width: 250px;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.right{
+    margin: auto;
+}
+
+.createQrSection{
+    margin-top: 20px;
+}
+
+.createSectionHead{
+    font-family: "Source Sans 3", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+.createSectionIntro{
+    max-width: 720px;
+    font-size: 18px;
+    margin: auto;
+    padding-bottom: 15px;
+    margin-bottom: 70px;
+}
+
+.createStepImg{
+    height: 300px;
+    width: 150px;
+}
+
+.createStepList{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.leftCreateSection{
+    height: 400px;
+    width: 400px;
+    text-align: right;
+}
+
+.rightCreateSection{
+    height: 400px;
+    width: 400px;
+    text-align: left;
+}
