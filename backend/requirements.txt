@@ -1,4 +1,4 @@
 Flask
 Flask-CORS
-tensorflow== 2.15.0
-Pillow
+tensorflow== 2.15.0  // python 3.9.13 works fine 
+Pillow 
